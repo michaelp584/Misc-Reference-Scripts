@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar 14 13:20:45 2019
-
-@author: michaelpatrick
+Classic Towers of Hanoi solution via recursion. 
 """
-# Classic Towers of Hanoi solution via recursion. 
 def printMove(fr, to):
-    print("Move from " + str(fr) + " to " + str(to))
+    print("Move from {} to {}".format(fr, to))
     
 def Towers(n, fr, to, spare):
     if n == 1: 
